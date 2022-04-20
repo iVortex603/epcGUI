@@ -21,6 +21,7 @@ local function updateInput(input)
 end
 
 frame.InputBegin:Connect(function(input)
+end
 	if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
 		dragToggle = true
 		dragStart = input.Position
