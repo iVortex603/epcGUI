@@ -1,4 +1,4 @@
-
+end
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
@@ -21,7 +21,6 @@ local function updateInput(input)
 end
 
 frame.InputBegin:Connect(function(input)
-end
 	if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
 		dragToggle = true
 		dragStart = input.Position
