@@ -1,4 +1,3 @@
-end
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
@@ -98,3 +97,4 @@ ESP.Font = Enum.Font.SourceSans
 ESP.Text = "ESP"
 ESP.TextColor3 = Color3.fromRGB(213, 213, 213)
 ESP.TextSize = 23.000
+
