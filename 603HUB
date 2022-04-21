@@ -1,6 +1,6 @@
 Begin
 local ScreenGui = Instance.new("ScreenGui")
-end
+End
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local ScrollingFrame = Instance.new("ScrollingFrame")
