@@ -1,4 +1,4 @@
-local error = nil
+
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
@@ -43,7 +43,7 @@ UIS.InputChanged:Connect(function(input)
 end)
 
 
-ScreenGui.Parent = game.Workspace
+ScreenGui.Parent = game.'CoreGui.RobloxGui:WaitForChild("Modules")'	
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
