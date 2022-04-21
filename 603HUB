@@ -1,6 +1,5 @@
-Begin
+local error = nil
 local ScreenGui = Instance.new("ScreenGui")
-End
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local ScrollingFrame = Instance.new("ScrollingFrame")
